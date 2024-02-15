@@ -1,0 +1,249 @@
+/*about-div-1*/
+.about-div-1-div-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.about-div-1-div-1-div-2 {
+  display: flex;
+  justify-content: end;
+  width: 60%;
+  font-size: 18px;
+}
+.about1 {
+  width: 100%;
+  border-radius: 10px;
+}
+.about-div-1-div-1{
+    padding-bottom: 40px;
+}
+/*about-div-2*/
+.about2 {
+  border-radius: 10px;
+}
+.about-div-2 {
+  display: flex;
+  justify-content: space-between;
+}
+.about-div-2-div-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 200px;
+}
+/*about-div-3*/
+.people img {
+  height: 300px;
+  width: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.people {
+  height: auto;
+  width: fit-content;
+  border-top: 10px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  border-color: var(--primary);
+  border-style: solid;
+  text-align: center;
+}
+.about-div-3-div-2 {
+  display: flex;
+  justify-content: space-between;
+}
+/*about-div-4*/
+.about-div-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.about-div-4-div-1-div-1{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.about-get-started-btn{
+    padding: 15px;
+  color: var(--white);
+  background-color: var(--primary);
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+}
+.portfolio-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--white);
+}
+.sub-head-view-portfolio{
+    font-size: 56px;
+}
+/*about-div-5*/
+.about-div-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about-div-5-div-1{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+/*Responsive*/
+/*Responsive Code*/
+
+/*Phone*/
+@media (max-width:480px){
+/*about-div-1*/
+.about-div-1-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-div-1-div-1-div-2 {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  font-size: 14px;
+}
+.about1 {
+  width: 100%;
+  border-radius: 10px;
+}
+.about-div-1-div-1{
+    padding-bottom: 40px;
+}
+/*about-div-2*/
+.about2 {
+  height: 22rem;
+  border-radius: 10px;
+}
+.about-div-2 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+.about-div-2-div-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px;
+}
+/*about-div-3*/
+.people img {
+  height: 300px;
+  width: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.people {
+  height: auto;
+  width: fit-content;
+  border-top: 10px;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-radius: 20px;
+  border-color: var(--primary);
+  border-style: solid;
+  text-align: center;
+}
+.about-div-3-div-1 h1{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.about-div-3-div-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*about-div-4*/
+.about-div-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.about-div-4-div-1-div-1{
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.about-div-4-div-1 h1{
+  font-size: 19px;
+  font-weight: 500;
+}
+.about-div-4-div-1 p{
+font-size: 12px;
+}
+.about-get-started-btn{
+  padding: 15px;
+color: var(--white);
+background-color: var(--primary);
+font-weight: 600;
+border-radius: 10px;
+border: none;
+width: 150px;
+cursor: pointer;
+}
+.portfolio-link{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--white);
+}
+.sub-head-view-portfolio{
+  font-size: 56px;
+}
+.about3{
+  height: 22rem;
+}
+/*about-div-5*/
+.about-div-5{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.about-div-5-div-1{
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-div-5-div-1 h1{
+  font-size: 20px;
+}
+.viewport{
+  display: none;
+}
+}
+
+/*Semi-Phone*/
+@media (min-width: 479px) and (max-width: 669px) {
+
+}
+
+/*Tablet*/
+@media (min-width: 670px) and (max-width: 1279px) {
+
+}

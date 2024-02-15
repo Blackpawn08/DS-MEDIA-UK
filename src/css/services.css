@@ -1,0 +1,137 @@
+/*services-div-1*/
+.services-div-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.services-div-1-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*services-div-2*/
+.services-div-2{
+    display: flex;
+    justify-content: space-between;
+}
+.services-div-2-div-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*services-div-3*/
+.services-div-3{
+  display: flex;
+  justify-content: space-between;
+}
+.services-div-3-div-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services-btn {
+  padding: 15px;
+  color: var(--white);
+  background-color: var(--primary);
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+}
+/*services-div-5*/
+.number{
+  font-size: 2em;
+  color: var(--primary);
+}
+.services-div-5-div-1{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.services-div-5-div-2{
+  display: flex;
+  justify-content: space-around;
+}
+/*Responsive Code*/
+
+/*Phone*/
+@media (max-width:480px){
+/*services-div-1*/
+.services-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-div-1-div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services-div-1-div-1 p{
+  font-size: 14px;
+}
+.services1{
+  height: 22rem;
+}
+/*services-div-2*/
+.services-div-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-div-2-div-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services2,.services3{
+  height: 22rem;
+}
+/*services-div-3*/
+.services-div-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-div-3-div-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services-btn {
+  padding: 15px;
+  color: var(--white);
+  background-color: var(--primary);
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  cursor: pointer;
+}
+/*services-div-5*/
+.number{
+  font-size: 2em;
+  color: var(--primary);
+}
+.services-div-5-div-1{
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.services-div-5-div-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+}
+
+/*Semi-Phone*/
+@media (min-width: 479px) and (max-width: 669px) {
+
+}
+
+/*Tablet*/
+@media (min-width: 670px) and (max-width: 1279px) {
+
+}

@@ -1,0 +1,124 @@
+:root {
+  font-family: Poppins, sans-serif;
+
+  /* Font Family */
+  --font-family: "Arial", sans-serif;
+  --base-font-size: 16px;
+  --heading-font-size: 24px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  /* Color palette */
+  --primary: #7f6aff;
+  --white: #f8f8f8;
+
+  color: #f8f8f8;
+  background-color: #1a1a1a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+section {
+  height: 100vh;
+  height: fit-content;
+  z-index: 2;
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5rem;
+}
+
+.pages {
+  z-index: 99;
+  position: relative;
+  overflow: hidden;
+  
+}
+.head{
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--primary);
+}
+.sub-head{
+  font-size: 36px;
+  line-height: 46px;
+}
+.mini-head{
+  font-size: 18px;
+  line-height: 46px;
+}
+
+.whitecircle-right{
+  z-index: 0;
+  position: absolute;
+  right: -20%;
+  width: 40%;
+  opacity: 10%;
+}
+
+.whitecircle-left{
+  z-index: 0;
+  position: absolute;
+  left: -25%;
+  width: 50%;
+  opacity: 10%;
+}
+
+.purplecircle-right{
+  z-index: 0;
+  position: absolute;
+  right: -20%;
+  width: 40%;
+  opacity: 10%;
+}
+
+.purplecircle-left{
+  z-index: 0;
+  position: absolute;
+  left: -20%;
+  width: 40%;
+  opacity: 10%;
+}
+
+.purplecirclering-right{
+  z-index: 0;
+  position: absolute;
+  right: -30%;
+  width: 60%;
+  opacity: 40%;
+}
+
+.purplecirclering-left{
+  z-index: 0;
+  position: absolute;
+  left: -30%;
+  width: 60%;
+  opacity: 40%;
+}
+
+
+/*Responsive Code*/
+
+/*Phone*/
+@media (max-width:480px){
+.sub-head{
+  font-size: 18px;
+  line-height: 28px
+}
+}
+
+/*Semi-Phone*/
+@media (min-width: 479px) and (max-width: 669px) {
+
+}
+
+/*Tablet*/
+@media (min-width: 670px) and (max-width: 1279px) {
+
+}
