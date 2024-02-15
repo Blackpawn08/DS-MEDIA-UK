@@ -221,11 +221,229 @@ form {
 
 /*Semi-Phone*/
 @media (min-width: 479px) and (max-width: 669px) {
- 
+  .contactform-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Bitmap{
+      border-radius: 10px;
+      display: none;
+  }
+  .contactform-div-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  .contactform-div-2-div-2-upper {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .contactform-div-2-div-2-tabs {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: var(--primary);
+    border-style: solid;
+    width: 100%;
+    text-align: center;
+    opacity: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .active-contactform-div-2-div-2-tabs{
+      opacity: 100%;
+      cursor: pointer;
+  }
+  form {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contactform-input {
+    background-color: #7a7a7a;
+    border-color: #f8f8f8;
+    color: #f8f8f8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: poppins;
+  }
+  .contact-message textarea {
+    background-color: #7a7a7a;
+    border-color: #f8f8f8;
+    color: #f8f8f8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: poppins;
+    transition: all 0.3s ease;
+  }
+  .contact-message textarea::placeholder {
+    color: #f8f8f8;
+    text-align: left;
+  }
+  .contact-names input::placeholder {
+    color: #f8f8f8;
+  }
+  .contact-names {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+    gap: 30px;
+  }
+  .contact-message {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .contact-message textarea {
+    height: 100px;
+    box-sizing: border-box;
+  }
+  .form-btn {
+    padding: 15px;
+    color: var(--white);
+    background-color: var(--primary);
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+  }
+  .form-btn-div {
+    display: flex;
+    justify-content: center;
+  }
+  .active-content{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
   }
 
 
 /*Tablet*/
 @media (min-width: 670px) and (max-width: 1279px) {
- 
+  .contactform-div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Bitmap{
+      border-radius: 10px;
+      display: none;
+  }
+  .contactform-div-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  .contactform-div-2-div-2-upper {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .contactform-div-2-div-2-tabs {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: var(--primary);
+    border-style: solid;
+    width: 100%;
+    text-align: center;
+    opacity: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .active-contactform-div-2-div-2-tabs{
+      opacity: 100%;
+      cursor: pointer;
+  }
+  form {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contactform-input {
+    background-color: #7a7a7a;
+    border-color: #f8f8f8;
+    color: #f8f8f8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: poppins;
+  }
+  .contact-message textarea {
+    background-color: #7a7a7a;
+    border-color: #f8f8f8;
+    color: #f8f8f8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: poppins;
+    transition: all 0.3s ease;
+  }
+  .contact-message textarea::placeholder {
+    color: #f8f8f8;
+    text-align: left;
+  }
+  .contact-names input::placeholder {
+    color: #f8f8f8;
+  }
+  .contact-names {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  
+    gap: 30px;
+  }
+  .contact-message {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .contact-message textarea {
+    height: 100px;
+    box-sizing: border-box;
+  }
+  .form-btn {
+    padding: 15px;
+    color: var(--white);
+    background-color: var(--primary);
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+  }
+  .form-btn-div {
+    display: flex;
+    justify-content: center;
+  }
+  .active-content{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
 }
