@@ -7,7 +7,7 @@ const NotFound = () => {
   return (
     <div className="NotFound-div">
       <h1 className="sub-head">Oops!</h1>
-      <p>We're working on it!</p>
+      <p>We are working on it!</p>
       <img className="not-img" src={Not} />
       <Link to="/">
         <button className="not-btn">Back to Home</button>
