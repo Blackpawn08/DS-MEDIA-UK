@@ -3,13 +3,13 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  gap: 300px;
+  gap: 250px;
 }
 .footer-div-2 {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  gap: 300px;
+  gap: 250px;
 }
 .footer-div-2-div-2 ul {
   list-style: none;
