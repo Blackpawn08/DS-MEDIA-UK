@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-div-3">
-            <p>© 2024 Nexbridge Technologies Inc. All rights reserved.</p>
+            <p>© 2024 DS-MEDIA. All rights reserved.</p>
             <Link>Privacy & Policy</Link>
         </div>
       </div>
